@@ -1,0 +1,37 @@
+* {
+  background-color: whitesmoke;
+}
+
+.loginbox {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 40%;
+}
+
+form {
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 80px;
+}
+
+form button {
+  background-color: green;
+  color: white;
+  height: 45px;
+  margin-top: 30px;
+}
+
+form input {
+  background-color: rgb(214, 211, 211);
+  height: 25px;
+  width: 300px;
+}
+
+form p {
+  background-color: white;
+  margin-bottom: 50px;
+  text-align: center;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import { Redirect } from 'react-router-dom';
 import { createUser } from '../services/userAPI';
 import Loading from './Loading';
+import './Login.css';
 
 class Login extends React.Component {
   constructor() {
@@ -34,9 +35,10 @@ class Login extends React.Component {
     const { btmHabilitado, logado, loading } = this.state;
     const { SaveUser, onInputChange } = this;
     return (
-      <div data-testid="page-login">
+      <div className="loginbox" data-testid="page-login">
         { loading ? <Loading /> : (
           <form>
+            <p>LOGIN</p>
             <input
               name="name"
               id="login-name"

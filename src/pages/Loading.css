@@ -1,0 +1,12 @@
+* {
+  background-color: whitesmoke;
+}
+
+.carregando {
+  align-items: center;
+  display: flex;
+  font-size: larger;
+  font-weight: 900;
+  justify-content: center;
+  margin-top: 40%;
+}
