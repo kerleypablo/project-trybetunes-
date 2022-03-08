@@ -1,0 +1,24 @@
+.boxSearch {
+  background-color: rgb(241, 235, 235);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.boxSearch input {
+  border: 2px solid;
+  border-radius: 4px;
+  height: 30px;
+  margin-right: 10px;
+  width: 450px;
+}
+
+.boxSearch button {
+  background-color: rgb(90, 90, 240);
+  color: white;
+  width: 100px;
+}
+
+button:hover {
+  background-color: rgb(33, 33, 144);
+}
