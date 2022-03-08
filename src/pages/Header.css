@@ -1,0 +1,23 @@
+.header {
+  align-items: baseline;
+  background-color: green;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 0%;
+}
+
+.user p {
+  display: block;
+  margin-left: 20%;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.user {
+  background-color: green;
+  height: 30px;
+  margin-top: 10px;
+  width: 100px;
+}
