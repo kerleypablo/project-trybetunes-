@@ -1,0 +1,22 @@
+section {
+  align-items: center;
+  border: 1px solid rgba(128, 128, 128, 0.541);
+  border-radius: 15px;
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+}
+
+.albumcard {
+  border: 2px solid rgba(0, 0, 0, 0.116);
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.albumcard img {
+  border-radius: 13px;
+  width: 210px;
+}

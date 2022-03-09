@@ -1,0 +1,13 @@
+.cardMusic {
+  align-items: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.527);
+  border-top: 1px solid rgba(128, 128, 128, 0.527);
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+}
+
+.cardMusic p {
+  text-align: left;
+  width: 150px;
+}
