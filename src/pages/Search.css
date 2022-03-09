@@ -22,3 +22,43 @@
 button:hover {
   background-color: rgb(33, 33, 144);
 }
+
+.boxCard {
+  padding: 15px;
+}
+
+.TituloArtista {
+  font-size: 25px;
+}
+
+.cardColections {
+  border: 1px solid rgb(206, 200, 200);
+  border-radius: 5px;
+  display: flex;
+  margin-bottom: 15px;
+  transition: 1s;
+}
+
+.cardColections:hover {
+  border: 2px solid black;
+  box-shadow: 15px 15px 5px gray;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.igmCard {
+  border-radius: 15px;
+  border-right: 10px solid rgba(128, 128, 128, 0.411);
+  width: 180px;
+}
+
+.albumArtista {
+  font-size: 25px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.nomeArtista {
+  font-size: 20px;
+  padding-left: 10px;
+}
